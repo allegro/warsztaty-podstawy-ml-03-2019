@@ -1,0 +1,28 @@
+name: alleml
+channels:
+  - conda-forge
+  - anaconda
+dependencies:
+  - python=3.6
+  - pyarrow
+  - nb_conda
+  - matplotlib
+  - conda-forge::cycler
+  - anaconda::seaborn
+  - anaconda::scikit-learn
+  - anaconda::gensim
+  - anaconda::pyemd
+  - nltk
+  - joblib
+  - pandas-profiling
+  - anaconda::plotly
+  - anaconda::bokeh
+  - conda-forge::httplib2
+  - anaconda::flask
+  - anaconda::pydotplus
+  - pip:
+    - pyspark_dist_explore
+    - tensorflow==1.6.0
+    - mnist==0.2.1
+    - xgboost
+    - pygame
